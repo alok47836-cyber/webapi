@@ -41,3 +41,5 @@ jobs:
           docker stop myapi || true
           docker rm myapi || true
           docker run -d -p 80:80 --name myapi myapi:latest
+
+//end
